@@ -7,9 +7,7 @@ psych::describe(microvan)
 hist(microvan$mvliking,  
 
      xlab = "Concept liking (mvliking)", # x axis label 
-
      main = "Histogram",                 # plot title 
-
      col = "grey")          
 
 library(tidyverse) 
