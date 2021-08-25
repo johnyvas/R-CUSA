@@ -260,6 +260,5 @@ aggregate(microvan[, 2:32],
           FUN = mean) 
 
 library(factoextra) 
-
 fviz_cluster(microvan_kmeans, data = microvan) +  
-  theme_bw() 
+ theme_bw() 
