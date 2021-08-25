@@ -29,7 +29,6 @@ pairs(microvan[, 2:11], lower.panel = NULL)
 library(corrplot) 
 
 cor <- cor(microvan[,2:32]) 
-
 corrplot(cor,  
 
          method="number",  
